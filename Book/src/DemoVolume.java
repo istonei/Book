@@ -24,9 +24,9 @@ public class DemoVolume {
 			b[i] = new Book(title, author, pages);
 		}
 		
-		Volume volume1 = new Volume(volumeName1, numberOfBooks1, b);
-		System.out.println(volume1);
-		System.out.println(volume1.getBookArray());
+		Volume volumedisplay = new Volume(volumeName1, numberOfBooks1, b);
+		System.out.println(volumedisplay);
+		System.out.println(volumedisplay.getBookArray());
 		
 		
 		
